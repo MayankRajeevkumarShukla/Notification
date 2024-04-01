@@ -7,7 +7,7 @@ export default function Home() {
       Notification.requestPermission().then((permission) => {
         if (permission === 'granted') {
           new Notification('Notification Title', {
-            body: 'Notification Body',
+            body: 'hii',
           });
         }
       });
@@ -84,9 +84,6 @@ const addRippleEffect = (event) => {
       </div>
     </div>
   </>
-  
-  
-  
   
   );
   
